@@ -1,0 +1,79 @@
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;  
+}
+.profile-header {
+    text-align: center;
+    padding: 30px;
+    
+    border-bottom: solid black 3px  ;
+    background-image: url(image.png);
+}
+.profile-img {
+    width: 130px;
+    height: 150px;
+    border-radius: 20%;
+    margin-bottom: 15px;
+    border: 5px solid black;  
+}
+.profile-name {
+    font-size: 2rem;
+    color: wheat;
+}
+.profile-bio {
+    font-size: 1rem;
+    color: wheat;
+}
+.hi{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    font-size: 24px;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+    list-style: square;
+    height: 50px;
+    background-color:  rgb(179, 143, 96);
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.me{
+    background-color: rgb(179, 143, 96);
+    font-size: 1.5rem;
+    padding: 20px;
+   
+}
+body{
+    background-color: rgb(179, 143, 96) ;
+         
+}
+.nav-links a{
+    text-decoration: none;
+}
+.nav{
+    border: solid black 3px;
+}
+.nav-links:hover{
+background-color: burlywood;
+}
+.nav1:hover{
+    color: black;
+    font-size: 25px;
+   
+}
+.nav3:hover{
+    color: black;
+    font-size: 25px;
+}
+.nav2:hover{
+    color: black;
+    font-size: 25px;
+}
+ 
